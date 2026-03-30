@@ -21,7 +21,7 @@ app.use(authRouter);     // ✅ then routes
 app.use(documentRouter);
 
 
-const DB = "mongodb://haiderali120705_db_user:bVumcgWdUnkQ58r5@ac-a3psufu-shard-00-00.joevxhb.mongodb.net:27017,ac-a3psufu-shard-00-01.joevxhb.mongodb.net:27017,ac-a3psufu-shard-00-02.joevxhb.mongodb.net:27017/?ssl=true&replicaSet=atlas-5la61m-shard-0&authSource=admin"
+const DB = "mongodb://<your username>:<your id>@ac-a3psufu-shard-00-00.joevxhb.mongodb.net:27017,ac-a3psufu-shard-00-01.joevxhb.mongodb.net:27017,ac-a3psufu-shard-00-02.joevxhb.mongodb.net:27017/?ssl=true&replicaSet=atlas-5la61m-shard-0&authSource=admin"
 
 mongoose
     .connect(DB)
