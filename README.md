@@ -1,17 +1,22 @@
 # google_docs_clone
 
-A new Flutter project.
+**Features**
 
-## Getting Started
+Google Authentication
+State Persistence
+Creating new Documents
+Viewing List of Documents
+Updating title of Document
+Link sharing
+Auto saving
+Collaborative Editing in Rich Text Editor
+Sign Out
 
-This project is a starting point for a Flutter application.
+**Tech Used**
 
-A few resources to get you started if this is your first Flutter project:
+**Server:** Nodejs, Express, MongoDB, Mongoose, SocketIO
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+**Client:** Flutter, Riverpod
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Feedback**
+If you have any feedback, please reach out to me at haiderali120705@gmail.com
